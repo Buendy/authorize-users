@@ -1,0 +1,97 @@
+﻿<?php
+    $origen = $_SERVER['REQUEST_URI']; 
+    
+?>
+<head>
+  <link rel="stylesheet" href="/browser/static/css/bootstrap.css">
+  <link rel="stylesheet" href="/browser/static/css/bootstrap-theme.css">
+  <title> Formulario para cambio de vales </title>
+</head>
+
+
+<body style="background-color:#F0F3F4;">
+	<br>
+	<br>
+	<br>
+	<p></p>
+		<center>
+			<img src="campus.png" alt="Solvetic">
+			<br>
+			<p></p>
+
+			<legend>Formulario para cambio de vales</legend>
+		</center>
+
+
+	<p></p>
+
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+  <center>
+  <br>
+  <div class="panel-group" id="accordion">
+            
+            <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h4 class="panel-title">
+                        <a align="center" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Crear vale a partir de un vale activo</a>
+                     </h4>
+                 </div>
+                 <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">Introduce un vale activo, este se anulará (el dispositivo activado con el no podrá navegar) y se crea un vale para un nuevo dispositivo.
+                      <p><a href="http://172.26.0.250:8081/form.html" Title="sinoaparecelaimg" type="button" class="btn btn-success" > Crear vale</a> </p></div>
+               </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Anular este dispositivo y crear un vale nuevo</a>
+                 </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                 <div class="panel-body">Se anula este dispositivo (no podrá navegar) y se crea un vale para un nuevo dispositivo.  
+                  <p><a href="http://172.26.0.250:8081/browser/stat_mac.php" Title="sinoaparecelaimg" type="button" class="btn btn-success"> Anular dispositivo</a></p> </div>
+             </div>
+          </div>
+       </div> 
+ 
+ 
+ <br>
+  
+
+ </center>  
+</form> 
+  
+</div>
+<div class="col-md-4"></div>
+</div>
+
+<?php
+    $origen = $_SERVER['REQUEST_URI']; 
+    
+?>
+<center>
+
+
+
+
+
+</center>
+
+<br>
+<p></p>
+
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4"><center><img src="algoritmo.png" alt="Solvetic">
+  <p> Para incidencias:</p>
+  <p>incidencias@algoritmoingenieria.com</p>
+  </center></div>
+  <div class="col-md-4"></div>
+</div>
+
+
+<script src="/browser/static/js/jquery-3.3.1.js"></script>		
+<script src="/browser/static/js/bootstrap.js"></script>
+</body>
